@@ -9,8 +9,7 @@ int main()
 
     for(i=0; str[i]!='\0'; i++){
     if((str[i]>='a' && str[i]<='z')) {
-         str[i]-32; 
-        printf("Amount: %c\n", str[i]);
+    printf("Amount: %c\n",  str[i]-32);
     }   
     }  
       
