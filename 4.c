@@ -2,9 +2,8 @@
 int main()
 {
     char k=65;
-    for (k; k<=69; k++){
+    for (k; k<=90; k++){
     printf("%c\n", k);
     }
     return 0;
 }
-
