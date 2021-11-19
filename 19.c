@@ -15,12 +15,11 @@ int main()
     if (symbol==true){
         printf("Real number(2)\n");
     }
-   if (sym1>=0 && sym1<=127) {
-        printf("Symbol can be transformed to digits (ASCII table)\n");
+   for(i=0; i<1; i++){
+        printf("Symbol can be transformed into digits (ASCII table)=%d\n", sym[0]);
    }
-   if (!(sym1>=0 && sym1<=127)) {
-        printf("0\n");
+    for(i=0; i<1; i++){
+        printf("Symbol cannot be transformed into digits (0)=%d\n", sym[0]);
    }
-    printf("\n");
     return 0;
 }
