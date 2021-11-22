@@ -7,7 +7,7 @@ int main()
     unsigned long length = strlen(str);
     printf("Length:%zu\n", length);
 
-    for(i=0; str[i]!='\0'; i++){
+    for(i=0; i<=length; i++){
     if((str[i]>='a' && str[i]<='z')) {
     printf("Amount: %c\n",  str[i]-32);
     }   
